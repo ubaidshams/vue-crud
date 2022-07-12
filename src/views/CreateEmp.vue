@@ -4,7 +4,7 @@
       <h1>Create Employee</h1>
 
       <form @submit.prevent="handleSubmit" class="myForm">
-        <v-container class="form d-flex">
+        <v-container fluid class="form d-flex">
           <v-row class="d-flex flex-column mx-5">
             <v-col>
               <v-text-field label="Employee name" v-model="empDetails.name">
@@ -36,7 +36,7 @@
           </v-row>
           <v-row class="d-flex flex-column">
             <label for="">Skills</label>
-            <v-col class="d-flex">
+            <v-col class="d-flex skillset">
               <v-checkbox
                 v-model="empDetails.skills"
                 label="HTML"
@@ -94,8 +94,12 @@
               </v-select>
             </v-col>
             <v-col class="d-flex flex-column">
-              <label for="doj">Date of joining</label>
-              <input type="date" name="doj" id="doj" v-model="empDetails.doj" />
+              <!-- <label for="doj">Date of joining</label>
+              <input type="date" name="doj" id="doj" v-model="empDetails.doj" /> -->
+              <v-date-picker
+                v-model="empDetails.doj"
+                full-width
+              ></v-date-picker>
             </v-col>
           </v-row>
         </v-container>
@@ -172,5 +176,8 @@ h1 {
 .row {
   width: 45%;
   padding: 20px;
+}
+.skillset {
+  gap: 10px;
 }
 </style>

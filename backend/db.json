@@ -9,7 +9,10 @@
       "workLocation": "Bangalore",
       "gender": "male",
       "doj": "2019-10-05",
-      "skills": ["Marketing", "Sales"],
+      "skills": [
+        "Marketing",
+        "Sales"
+      ],
       "id": "39nfu2"
     },
     {
@@ -21,7 +24,13 @@
       "workLocation": "Bangalore",
       "gender": "male",
       "doj": "2021-11-12",
-      "skills": ["HTML", "CSS", "Javascript", "Vue", "React"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Vue",
+        "React"
+      ],
       "id": "jc8832d9bn"
     },
     {
@@ -33,7 +42,13 @@
       "workLocation": "Chennai",
       "gender": "male",
       "doj": "2021-11-15",
-      "skills": ["HTML", "CSS", "Javascript", "React", "Vue"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Vue"
+      ],
       "id": "jc8832wnd6"
     },
     {
@@ -45,7 +60,12 @@
       "workLocation": "Mumbai",
       "gender": "male",
       "doj": "2021-12-20",
-      "skills": ["HTML", "CSS", "Javascript", "React"],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
       "id": "jc8832kjsb7"
     },
     {
@@ -69,7 +89,10 @@
       "workLocation": "Bangalore",
       "gender": "female",
       "doj": "2020-06-22",
-      "skills": ["Marketing", "Sales"],
+      "skills": [
+        "Marketing",
+        "Sales"
+      ],
       "id": "jc883sjdhc2"
     }
   ]
