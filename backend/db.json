@@ -1,0 +1,99 @@
+{
+  "emps": [
+    {
+      "name": "wahid",
+      "desg": "team lead",
+      "salary": 40000,
+      "email": "mohammedwahid04@gmail.com",
+      "experience": "2-5 years",
+      "workLocation": "Bangalore",
+      "gender": "male",
+      "doj": "2019-10-05",
+      "skills": [
+        "Marketing",
+        "Sales"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Ubaid",
+      "email": "wahidshams@gmail.com",
+      "desg": "Frontend Developer",
+      "salary": 20000,
+      "experience": "0-2 years",
+      "workLocation": "Bangalore",
+      "gender": "male",
+      "doj": "2021-11-12",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Vue",
+        "React"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Abdul",
+      "email": "abdul@gmail.com",
+      "desg": "Frontend Developer",
+      "salary": 25000,
+      "experience": "0-2 years",
+      "workLocation": "Chennai",
+      "gender": "male",
+      "doj": "2021-11-15",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Vue"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Shubham",
+      "email": "shubham@gmail.com",
+      "desg": "Backend Developer",
+      "salary": 30000,
+      "experience": "0-2 years",
+      "workLocation": "Mumbai",
+      "gender": "male",
+      "doj": "2021-12-20",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Qeezar",
+      "email": "qeez@gmail.com",
+      "desg": "UI/UX Designer",
+      "salary": 32500,
+      "experience": "2-5 years",
+      "workLocation": "Pune",
+      "gender": "male",
+      "doj": "2019-06-25",
+      "skills": [],
+      "id": 7
+    },
+    {
+      "name": "Sana",
+      "email": "sana@gmail.com",
+      "desg": "Team Lead",
+      "salary": 42000,
+      "experience": "0-2 years",
+      "workLocation": "Bangalore",
+      "gender": "female",
+      "doj": "2020-06-22",
+      "skills": [
+        "Marketing",
+        "Sales"
+      ],
+      "id": 8
+    }
+  ]
+}
