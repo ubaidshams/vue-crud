@@ -3,8 +3,8 @@
     <article class="d-flex flex-column align-center">
       <h1>Edit Employee</h1>
 
-      <form @submit.prevent="handleSubmit">
-        <div class="form d-flex">
+      <form @submit.prevent="handleSubmit" class="myForm">
+        <v-container class="form d-flex">
           <v-row class="d-flex flex-column mx-5">
             <v-col>
               <v-text-field label="Employee name" v-model="empDetails.name">
@@ -98,8 +98,8 @@
               <input type="date" name="doj" id="doj" v-model="empDetails.doj" />
             </v-col>
           </v-row>
-        </div>
-        <v-btn color="success" type="submit" class="ml-15">Submit</v-btn>
+        </v-container>
+        <v-btn color="success" type="submit" class="mb-5">Submit</v-btn>
       </form>
     </article>
   </section>
@@ -160,7 +160,25 @@ article {
   width: 90%;
   gap: 30px;
 }
+h1 {
+  font-size: 2rem;
+}
 .myForm {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.container {
+  width: 100%;
+  background: #efefef;
+  padding: 20px;
+  justify-content: space-between;
+}
+.row {
+  width: 45%;
+  padding: 20px;
 }
 </style>

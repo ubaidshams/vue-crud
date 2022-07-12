@@ -7,23 +7,24 @@
         <thead>
           <tr>
             <th @click="sortEmp">
-              Id
+              <span>Id</span>
+              &nbsp;
               <v-btn icon>
                 <v-icon dense class="arrowIcon">fa-thin fa-arrow-down</v-icon>
               </v-btn>
             </th>
             <th @click="sortEmp">
-              Name
+              <span>Name</span>&nbsp;
               <v-icon class="arrowIcon" dense>fa-thin fa-arrow-down</v-icon>
             </th>
             <th @click="sortEmp">
-              Designation
+              <span>Designation</span>&nbsp;
               <v-btn icon>
                 <v-icon dense class="arrowIcon">fa-thin fa-arrow-down</v-icon>
               </v-btn>
             </th>
             <th @click="sortEmp">
-              Salary
+              <span>Salary</span>&nbsp;
               <v-btn icon>
                 <v-icon dense class="arrowIcon">fa-thin fa-arrow-down</v-icon>
               </v-btn>
@@ -127,7 +128,7 @@ export default {
         this.pageList = this.empList.slice(0, this.rows);
       } catch (error) {
         console.log(error);
-        this.$vToastify.error("Error fetching data");
+        this.$vToastify.error(error.message);
       }
     },
     setTableSiz: function () {
@@ -176,7 +177,6 @@ export default {
   beforeMount() {
     this.fetchEmps();
     this.setTableSiz();
-    console.log(this.pageList);
   },
 };
 </script>
@@ -185,7 +185,7 @@ export default {
   width: 100%;
 }
 article {
-  width: 90%;
+  width: 95%;
   gap: 20px;
 }
 h1 {
@@ -197,6 +197,9 @@ h1 {
 .arrowIcon {
   visibility: hidden;
 }
+/* th {
+  display: flex;
+} */
 th:hover .arrowIcon {
   visibility: visible;
 }

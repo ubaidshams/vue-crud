@@ -2,18 +2,15 @@
   "emps": [
     {
       "name": "wahid",
-      "desg": "team lead",
+      "desg": "mentor",
       "salary": 40000,
       "email": "mohammedwahid04@gmail.com",
       "experience": "2-5 years",
       "workLocation": "Bangalore",
       "gender": "male",
       "doj": "2019-10-05",
-      "skills": [
-        "Marketing",
-        "Sales"
-      ],
-      "id": 3
+      "skills": ["Marketing", "Sales"],
+      "id": "39nfu2"
     },
     {
       "name": "Ubaid",
@@ -24,14 +21,8 @@
       "workLocation": "Bangalore",
       "gender": "male",
       "doj": "2021-11-12",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Vue",
-        "React"
-      ],
-      "id": 4
+      "skills": ["HTML", "CSS", "Javascript", "Vue", "React"],
+      "id": "jc8832d9bn"
     },
     {
       "name": "Abdul",
@@ -42,14 +33,8 @@
       "workLocation": "Chennai",
       "gender": "male",
       "doj": "2021-11-15",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React",
-        "Vue"
-      ],
-      "id": 5
+      "skills": ["HTML", "CSS", "Javascript", "React", "Vue"],
+      "id": "jc8832wnd6"
     },
     {
       "name": "Shubham",
@@ -60,13 +45,8 @@
       "workLocation": "Mumbai",
       "gender": "male",
       "doj": "2021-12-20",
-      "skills": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-      ],
-      "id": 6
+      "skills": ["HTML", "CSS", "Javascript", "React"],
+      "id": "jc8832kjsb7"
     },
     {
       "name": "Qeezar",
@@ -78,7 +58,7 @@
       "gender": "male",
       "doj": "2019-06-25",
       "skills": [],
-      "id": 7
+      "id": "jc88skjio32"
     },
     {
       "name": "Sana",
@@ -89,11 +69,8 @@
       "workLocation": "Bangalore",
       "gender": "female",
       "doj": "2020-06-22",
-      "skills": [
-        "Marketing",
-        "Sales"
-      ],
-      "id": 8
+      "skills": ["Marketing", "Sales"],
+      "id": "jc883sjdhc2"
     }
   ]
 }
