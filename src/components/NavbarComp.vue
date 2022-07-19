@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import Axios from "@/apis/Axios";
 export default {
   name: "NavbarComp",
 };
@@ -23,5 +24,8 @@ export default {
 }
 a {
   text-decoration: none;
+}
+input {
+  background: #efefef;
 }
 </style>

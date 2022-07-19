@@ -7,7 +7,12 @@
         <v-container fluid class="form d-flex">
           <v-row class="d-flex flex-column mx-5">
             <v-col>
-              <v-text-field label="Employee name" v-model="empDetails.name">
+              <v-text-field
+                :rules="nameRules"
+                label="Employee name"
+                :counter="50"
+                v-model="empDetails.name"
+              >
               </v-text-field>
             </v-col>
             <v-col>
@@ -15,6 +20,7 @@
                 label="Email"
                 type="email"
                 v-model="empDetails.email"
+                :rules="emailRules"
               >
               </v-text-field>
             </v-col>
@@ -128,6 +134,14 @@ export default {
         skills: [],
       },
       items: ["Bangalore", "Mumbai", "Pune", "Hyderabad", "Chennai"],
+      nameRules: [
+        v => !!v || "Name is required",
+        v => v.length <= 50 || "Name must be less than 50 characters",
+      ],
+      emailRules: [
+        v => !!v || "E-mail is required",
+        v => /.+@.+/.test(v) || "E-mail must be valid",
+      ],
     };
   },
   methods: {

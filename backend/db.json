@@ -16,7 +16,7 @@
       "id": "39nfu2"
     },
     {
-      "name": "Ubaid",
+      "name": "ubaid",
       "email": "wahidshams@gmail.com",
       "desg": "Frontend Developer",
       "salary": 20000,
@@ -77,7 +77,11 @@
       "workLocation": "Pune",
       "gender": "male",
       "doj": "2019-06-25",
-      "skills": [],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Marketing"
+      ],
       "id": "jc88skjio32"
     },
     {
@@ -94,6 +98,24 @@
         "Sales"
       ],
       "id": "jc883sjdhc2"
+    },
+    {
+      "name": "richter",
+      "email": "richter@gmail.com",
+      "desg": "frontend developer",
+      "salary": 20000,
+      "experience": "0-2 years",
+      "workLocation": "Hyderabad",
+      "gender": "male",
+      "doj": "2021-10-20",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Vue"
+      ],
+      "id": "0QIcl4u"
     }
   ]
 }
